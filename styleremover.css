@@ -1,0 +1,34 @@
+body {
+  display:grid;
+  min-height: 100px;
+  place-items: center;
+  font-size: 3rem;
+}
+.nostyle{
+
+}
+.nostyle_btn{
+  background-color: black;
+  /*
+  wont be black since all the settign will be unset
+
+  */
+  all: unset;
+}
+
+.style_btn{
+  all: unset;
+  margin-top: 100px;
+  display:inline-block;
+  padding: .5em 1.25em;
+  background: steelblue;
+  color: white;
+  box-shadow: 0 12px 12px -6px rgba(grey, .69);
+  transform: scale(1);
+  transition: transform ease-in-out 250ms;
+
+}
+.style_btn:hover{
+transform: scale(1.25);
+box-shadow: 0 12px 15px -7.5px rgba(grey, .69);
+}
